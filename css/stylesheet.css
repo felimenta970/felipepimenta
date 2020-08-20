@@ -1,0 +1,77 @@
+/* Configurações para impressão da página */
+
+@media print {
+    @page {
+        margin: 0px;
+    }
+
+    body {
+        margin: 1.6cm;
+    }
+
+    footer, hr {
+        display: none;
+    }
+}
+
+/* Mudanças no cabeçalho e rodapé */
+header, footer {
+    color: #757575;
+    text-align: center;
+    font-weight: 500;
+}
+
+footer {
+    margin: 20px;
+}
+
+h1 {
+    color: #1F3864;
+    font-weight: 900;
+}
+
+a {
+    color: #3a66b3;
+    font-weight: 500;
+}
+
+.phone-email {
+    margin-top: -7px;
+}
+
+/* Corpo do texto */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*  Configurações para as seções da página */
+.category {
+    color: #1F3864;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+
+.content {
+    color: #707070;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.sub-category {
+    color: #3a66b3;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.time {
+    color: #757575;
+    text-transform: uppercase;
+}
+
+.info {
+    color: #3a66b3;
+    font-weight: 600;
+    font-size: 1.15rem;
+}
