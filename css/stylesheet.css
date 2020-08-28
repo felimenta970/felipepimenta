@@ -14,9 +14,76 @@
     }
 }
 
+@media (prefers-color-scheme:dark) {
+    body {
+        background-color: #121212;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    header, footer {
+        color: #FFFFFF;
+        opacity: 90%;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    footer {
+        margin: 20px;
+    }
+
+    h1 {
+        color: #3a66b3;
+        font-weight: 900;
+    }
+
+    a {
+        color: #7093e6;
+        font-weight: 500;
+    }
+
+    .phone-email {
+        margin-top: -7px;
+    }
+
+    .category {
+        color: #3a66b3;
+        font-weight: 700;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+
+    .content {
+        color: #FFFFFF;
+        opacity: 90%;
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .sub-category {
+        color: #7d8fc3;
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+    
+    .time {
+        color: #FFFFFF;
+        opacity: 90%;
+        text-transform: uppercase;
+    }
+    
+    .info {
+        color: #3a66b3;
+        font-weight: 600;
+        font-size: 1.15rem;
+    }
+}
+
 /* Mudanças no cabeçalho e rodapé */
 header, footer {
-    color: #757575;
+    color: #FFFFFF;
+    opacity: 90%;
     text-align: center;
     font-weight: 500;
 }
