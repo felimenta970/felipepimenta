@@ -16,7 +16,7 @@
 
 @media (prefers-color-scheme:dark) {
     body {
-        background-color: #121212;
+        background-color: #171717;
         font-family: 'Montserrat', sans-serif;
 
     }
@@ -32,12 +32,12 @@
     }
 
     h1 {
-        color: #2366d8;
+        color: #6BA1FF;
         font-weight: 900;
     }
 
     a {
-        color: #2c79fd;
+        color: #3F85FD;
         font-weight: 500;
     }
 
@@ -46,7 +46,7 @@
     }
 
     .category {
-        color: #004bcc;
+        color: #6BA1FF;
         font-weight: 700;
         font-size: 1.3rem;
         text-transform: uppercase;
@@ -60,7 +60,7 @@
     }
 
     .sub-category {
-        color: #2c79fd;
+        color: #3F85FD;
         font-weight: 700;
         font-size: 1.1rem;
     }
