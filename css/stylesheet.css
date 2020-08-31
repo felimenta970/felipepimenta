@@ -16,7 +16,7 @@
 
 @media (prefers-color-scheme:dark) {
     body {
-        background-color: #121212;
+        background-color: #171717;
         font-family: 'Montserrat', sans-serif;
 
     }
@@ -32,12 +32,12 @@
     }
 
     h1 {
-        color: #2366d8;
+        color: #42a4ff;
         font-weight: 900;
     }
 
     a {
-        color: #2c79fd;
+        color: #5188ff;
         font-weight: 500;
     }
 
@@ -46,7 +46,7 @@
     }
 
     .category {
-        color: #2c79fd;
+        color: #42a4ff;
         font-weight: 700;
         font-size: 1.3rem;
         text-transform: uppercase;
@@ -59,7 +59,7 @@
     }
 
     .sub-category {
-        color: #2c79fd;
+        color: #5188ff;
         font-weight: 700;
         font-size: 1.1rem;
     }
@@ -70,9 +70,63 @@
     }
     
     .info {
-        color: #3a66b3;
+        color: #5b8feb;
         font-weight: 600;
         font-size: 1.15rem;
+    }
+
+    button.active {
+        background-color: #42a4ff;
+        color: #FFFFFF;
+        outline: none;
+        padding: 5px 10px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    button.inactive {
+        background-color: #171717;
+        color: #42a4ff;
+        outline: none;
+        padding: 5px 10px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    button.active#languageSwitcher_pt {
+        border-width: 1px;
+        border-style: solid;
+        border-color: #42a4ff #171717 #42a4ff #42a4ff;
+        border-radius: 5px 0px 0px 5px;
+    }
+
+    button.inactive#languageSwitcher_en {
+        box-sizing: border-box;
+        outline: none;
+        border-width: 1px 1px 1px 0px;
+        border-style: solid;
+        border-color: #42a4ff#42a4ff;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    button.active#languageSwitcher_en {
+        border-width: 1px;
+        border-style: solid;
+        border-color: #42a4ff #42a4ff #42a4ff #171717;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    button.inactive#languageSwitcher_pt {
+        box-sizing: border-box;
+        outline: none;
+        border-width: 1px 0px 1px 1px;
+        border-style: solid;
+        border-color: #42a4ff;
+        border-radius: 5px 0px 0px 5px;
+    }
+
+    button:active, button:focus, button:hover {
+        outline: none;
     }
 }
 
