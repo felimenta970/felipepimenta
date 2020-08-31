@@ -54,6 +54,7 @@
 
     .content {
         color: #FFFFFF;
+        opacity: 85%;
         font-size: 1.1rem;
         text-align: justify;
     }
